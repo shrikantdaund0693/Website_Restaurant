@@ -8,6 +8,9 @@
     margin-top: 50px;
     overflow: hidden;
 }
+body{
+    background-image: url(./images/bg.png);
+}
 .footer{
     background-color: #e9ecef;
 }
@@ -41,13 +44,14 @@
     border-right: 1px solid rgb(214, 205, 205);
     padding: 20px;
 }
-.inner img{
+.inner .div1 img{
     width: 200px;
     margin-left: 100px;
     border: 1px solid rgb(230, 187, 187);
     border-radius: 20px;
+    overflow: hidden;
 }
-.inner .quote{
+.inner  .quote{
     text-align: center;
     font-size: 1.2em;
     font-weight: bold;
@@ -57,4 +61,99 @@
     text-align: center;
     font-size: 1.2em;
     padding: 20px;
+}
+.inner .lists li{
+    border: 1px solid rgb(240, 170, 170);
+    padding: 10px;
+    font-style: italic;
+    font-size:130%;
+    
+}
+.inner .lists li:hover {
+    background-color: rgb(207, 196, 196);
+}
+
+.inner .lists li a{
+    text-decoration: none;
+    color: black;
+}
+.inner .data ,.inner .links,.inner .div1
+{
+    padding: 10px;
+    margin: 20px;
+}
+.footer{
+    margin-bottom: 5px;
+}
+
+@media(min-width:768) and (max-width:992px){
+    .inner .div1 img{
+        width: 100px;
+    }
+    .inner{
+        border-bottom: 1px solid black;
+    }
+}
+@media(max-width:767px) and (min-width:0px){
+    .caraousal{
+        height: 390px;
+    }
+    .inner .div1 img{
+        width: 100px;
+    }
+    .inner{
+        border-bottom: 1px solid black;
+    }
+}
+.feedback{
+    background-color: transparent;
+    margin-bottom: 10px;
+    border: 1px solid black;
+    position: relative;
+    height: 350px;
+}
+.feedback .image img{
+    width: 200px;
+    position: absolute;
+    top:10px;
+    left: 160px;
+    border: 1px solid #e9ecef;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px gray;
+}
+.feedback .image .stars{
+    position: absolute;
+    top:210px;
+    left: 200px;
+}
+.image p{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+.feedback p{
+    clear: left;
+    margin-top: 50px;
+}
+.fdbk,.feedback p{
+    color: aliceblue;
+}
+.myfeed{
+    box-shadow: 10px 10px 20px rgb(187, 172, 172);
+    border-left: 1px double white;
+    border-radius: 30px;
+}
+i{
+    color: white;
+}
+.checked{
+    color: orange;
+}
+.image .name{
+    position: absolute;
+    top: 230px;
+    left: 180px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.2em;
+    font-style: italic;
 }
