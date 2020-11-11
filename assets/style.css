@@ -1,6 +1,12 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
 .jumbotron{
     height: 500px;
     margin-top: 50px;
+    overflow: hidden;
 }
 .footer{
     background-color: #e9ecef;
@@ -10,4 +16,23 @@
 }
 .nav{
     border-bottom:1px solid black ;
+}
+#logo
+{
+    width: 60px;
+    height: auto;
+}
+.car img{
+    width: 100%;
+    height: auto;
+    margin-top: 0px;
+}
+.caraousal{
+    height: 500px;
+    margin-top: 50px;
+    overflow: hidden;
+    margin-bottom: 30px;
+    border: 1px solid black;
+    box-shadow: 10px 10px 10px gray;
+    border-radius: 10px;
 }

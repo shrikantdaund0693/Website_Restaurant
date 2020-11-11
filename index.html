@@ -7,11 +7,14 @@
     <script src="./assets/jQuery.js"></script>
     <link rel="stylesheet" href="./assets/bootstrap/css/bootstrap.min.css">
     <script src="./assets/bootstrap/js/bootstrap.min.js"></script>
+    <link rel="icon" 
+      type="image/png" 
+      href="./assets/images/favicon.png">
     <link rel="stylesheet" href="./assets/style.css">
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="#"><img src="" alt="logo"></a>
+        <a class="navbar-brand" href="#"><img id="logo" src="./assets/images/logo_transparent.png" alt="logo"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -40,8 +43,38 @@
         </div>
       </nav>
       <div class="container">
-        <div class="jumbotron">
-            
+        <div class="caraousal">
+          <div id="demo" class="carousel slide" data-ride="carousel">
+
+            <!-- Indicators -->
+            <ul class="carousel-indicators">
+              <li data-target="#demo" data-slide-to="0" class="active"></li>
+              <li data-target="#demo" data-slide-to="1"></li>
+              <li data-target="#demo" data-slide-to="2"></li>
+            </ul>
+          
+            <!-- The slideshow -->
+            <div class="carousel-inner">
+              <div class="carousel-item active car">
+                <img src="./assets/images/car2.jpg" alt="Los Angeles">
+              </div>
+              <div class="carousel-item car">
+                <img src="./assets/images/car1.jpg" alt="Chicago">
+              </div>
+              <div class="carousel-item car">
+                <img src="./assets/images/car3.jpg" alt="New York">
+              </div>
+            </div>
+          
+            <!-- Left and right controls -->
+            <a class="carousel-control-prev" href="#demo" data-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#demo" data-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </a>
+          
+          </div>
           </div>
       </div>
       
