@@ -86,6 +86,7 @@ body{
     margin-bottom: 5px;
 }
 
+
 @media(min-width:768) and (max-width:992px){
     .inner .div1 img{
         width: 100px;
