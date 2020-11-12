@@ -3,13 +3,9 @@
     padding: 0px;
 }
 
-.jumbotron{
-    height: 500px;
-    margin-top: 50px;
-    overflow: hidden;
-}
 body{
     background-image: url(./images/bg.png);
+    background-size:cover ;
 }
 .footer{
     background-color: #e9ecef;
@@ -43,13 +39,6 @@ body{
 .inner{
     border-right: 1px solid rgb(214, 205, 205);
     padding: 20px;
-}
-.inner .div1 img{
-    width: 200px;
-    margin-left: 100px;
-    border: 1px solid rgb(230, 187, 187);
-    border-radius: 20px;
-    overflow: hidden;
 }
 .inner  .quote{
     text-align: center;
@@ -86,26 +75,6 @@ body{
     margin-bottom: 5px;
 }
 
-
-@media(min-width:768) and (max-width:992px){
-    .inner .div1 img{
-        width: 100px;
-    }
-    .inner{
-        border-bottom: 1px solid black;
-    }
-}
-@media(max-width:767px) and (min-width:0px){
-    .caraousal{
-        height: 390px;
-    }
-    .inner .div1 img{
-        width: 100px;
-    }
-    .inner{
-        border-bottom: 1px solid black;
-    }
-}
 .feedback{
     background-color: transparent;
     margin-bottom: 10px;
@@ -141,4 +110,47 @@ i{
     font-family: 'Courier New', Courier, monospace;
     font-size: 1.2em;
     font-style: italic;
+}
+
+.footer_img img{
+    width: 100%;
+    margin-top: 30px;
+    border: 1px solid rgb(230, 187, 187);
+    border-radius: 20px;
+    overflow: hidden;
+}
+.footer_quote .quote{
+    margin-top: 80px;
+}
+.copy{
+    margin-top: 10px;
+    margin-bottom: 0px;
+    border-top: 1px solid gray;
+}
+
+.inner .address_div{
+    background-color:cyan;
+    margin-top: 10px;
+    padding: 20px;
+    border-style: double;
+    border-radius: 50px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.social{
+    text-align: center;
+    border-top-style: ridge;
+    padding: 20px;
+}
+.social i:hover{
+    color: blueviolet;
+    font-size: 3.2em;
+}
+.social i{
+    color: black;
+    font-size: 3em;
+    padding: 1px;
+    margin-right: 10px ;
+    text-align: center;
 }
