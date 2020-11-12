@@ -109,30 +109,11 @@ body{
     background-color: transparent;
     margin-bottom: 10px;
     border: 1px solid black;
+    border-radius: 30px;
     position: relative;
-    height: 350px;
 }
-.feedback .image img{
-    width: 200px;
-    position: absolute;
-    top:10px;
-    left: 160px;
-    border: 1px solid #e9ecef;
-    border-radius: 10px;
-    box-shadow: 10px 10px 10px gray;
-}
-.feedback .image .stars{
-    position: absolute;
-    top:210px;
-    left: 200px;
-}
-.image p{
-    position: absolute;
-    top: 0px;
-    right: 0px;
-}
+
 .feedback p{
-    clear: left;
     margin-top: 50px;
 }
 .fdbk,.feedback p{
@@ -149,10 +130,13 @@ i{
 .checked{
     color: orange;
 }
-.image .name{
-    position: absolute;
-    top: 230px;
-    left: 180px;
+
+.image1 img{
+    width: 100%;
+    margin-top: 30px;
+}
+
+.image1 div .name{
     font-family: 'Courier New', Courier, monospace;
     font-size: 1.2em;
     font-style: italic;
