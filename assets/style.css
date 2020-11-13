@@ -130,8 +130,6 @@ i{
     margin-top: 10px;
     margin-bottom: 0px;
     border-top: 1px solid gray;
-    color: red;
-    font-weight: bold;
 }
 
 .inner .address_div{
@@ -230,9 +228,46 @@ input,.sl{
 .fab{
 	font-weight: 100;
 }
-.carousel-inner{
-	border: 6px solid orange;
-}
+
 .feedb{
 	padding: 5px 10% 5px 10%;
+}
+
+.special{
+    border-style: double;
+    border-color: antiquewhite;
+    padding: 50px;
+    margin: 20px auto;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+.special1,.special2,.special3{
+    position: relative;
+    margin: 20px auto;
+    padding: 20px;
+    height: 350px;
+    border: 1px solid white;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.special1 img,.special2 img,.special3 img{
+    width: 100%;
+    height: 80%;
+    border-radius: 100%;
+}
+
+.special1 p,.special2 p ,.special3 p{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+.success{
+    color: #e9ecef;
 }
