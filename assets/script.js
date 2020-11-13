@@ -4,5 +4,6 @@ function quantity_change() {
     var price = document.getElementById("price");
     var val = parseInt(price.value);
     var final = val*n;
-    document.getElementById('total').innerHTML = final + " $";
+    var name= document.getElementById("name").value;
+    document.getElementById('total').innerHTML = "<br>"+ name+ "<br>" +"Rs "+ final;
 }

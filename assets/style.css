@@ -28,7 +28,6 @@ body{
     margin-top: 0px;
 }
 .caraousal{
-    height: 500px;
     margin-top: 50px;
     overflow: hidden;
     margin-bottom: 30px;
@@ -37,7 +36,7 @@ body{
     border-radius: 10px;
 }
 .inner{
-    border-right: 1px solid rgb(214, 205, 205);
+    border-right: 1px solid green;
     padding: 20px;
 }
 .inner  .quote{
@@ -52,10 +51,9 @@ body{
     padding: 20px;
 }
 .inner .lists li{
-    border: 1px solid rgb(240, 170, 170);
+    border: 1px solid purple;
     padding: 10px;
     font-style: italic;
-    font-size:130%;
     
 }
 .inner .lists li:hover {
@@ -65,6 +63,7 @@ body{
 .inner .lists li a{
     text-decoration: none;
     color: black;
+    font-weight: bold;
 }
 .inner .data ,.inner .links,.inner .div1
 {
@@ -73,12 +72,13 @@ body{
 }
 .footer{
     margin-bottom: 5px;
+    border: 4px solid blue; 
 }
 
 .feedback{
     background-color: transparent;
     margin-bottom: 10px;
-    border: 1px solid black;
+    border: 1px solid white;
     border-radius: 30px;
     position: relative;
 }
@@ -91,11 +91,12 @@ body{
 }
 .myfeed{
     box-shadow: 10px 10px 20px rgb(187, 172, 172);
-    border-left: 1px double white;
+    border: 1px double white;
     border-radius: 30px;
+    background-color: black;
 }
 i{
-    color: white;
+    color: green;
 }
 .checked{
     color: orange;
@@ -119,6 +120,9 @@ i{
     border-radius: 20px;
     overflow: hidden;
 }
+.footer_img{
+	padding: 20px 25% 20px 25%;
+}
 .footer_quote .quote{
     margin-top: 80px;
 }
@@ -126,6 +130,8 @@ i{
     margin-top: 10px;
     margin-bottom: 0px;
     border-top: 1px solid gray;
+    color: red;
+    font-weight: bold;
 }
 
 .inner .address_div{
@@ -140,8 +146,7 @@ i{
 
 .social{
     text-align: center;
-    border-top-style: ridge;
-    padding: 20px;
+    padding: 10px;
 }
 .social i:hover{
     color: blueviolet;
@@ -149,15 +154,16 @@ i{
 }
 .social i{
     color: black;
-    font-size: 3em;
+    font-size: 1.5em;
     padding: 1px;
-    margin-right: 10px ;
+    margin-right: 5px ;
     text-align: center;
 }
 .follow{
     font-size: 1.2em;
     text-align: center;
     padding: 5px;
+    color: blue;
 }
 
 .order_cont{
@@ -197,9 +203,6 @@ input,.sl{
     background-color: black;
     opacity: 0.9;
 }
-.address{
-    height: 150px;
-}
 .cont-2
 {
     margin: 20px auto;
@@ -223,4 +226,13 @@ input,.sl{
 }
 #total ,.tot{
     font-size: x-large;
+}
+.fab{
+	font-weight: 100;
+}
+.carousel-inner{
+	border: 6px solid orange;
+}
+.feedb{
+	padding: 5px 10% 5px 10%;
 }

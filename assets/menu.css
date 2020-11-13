@@ -1,5 +1,6 @@
 #img p{
 	height: 240px;
+	box-sizing: border-box;
 	margin: 0px;
 	margin-bottom: 15px;
 	padding: 0px;
@@ -7,6 +8,8 @@
 #img img{
 	height: 100%;
 	width: 100%;
+	margin: 0px;
+	box-sizing: border-box;
 	padding: 10px 10% 10px 10%;
 }
 #menu h2{
@@ -23,7 +26,7 @@
 #mnav div{
 	text-align: center;
 	box-sizing: border-box;
-	padding: 0px 9% 0px 9%;
+	padding: 0px 8% 0px 8%;
 	margin: 10px auto 10px;
 }
 #mnav3 div{
@@ -45,6 +48,10 @@
 	margin: 0px auto 0px; 
 }
 #img{
+	width: 100%;
+	box-sizing: border-box;
+	padding: 0px;
+	margin: 0px;
 	margin-top: 30px;
 }
 #mnav p{
@@ -107,12 +114,35 @@ span{
 	position: relative;
 	top: 8px;
 }
+#r{
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+}
 
 .inner{
 	border:none;
 }
 body{
 	background:none;
+}
+#img div{
+	margin: 0px;
+}
+#mnav,#mnav2,#mnav3{
+	margin: 0px;
+}
+.footer .inner{
+	border-right: 1px solid green;
+}
+#order{
+	background-color: green;
+	padding: 3px;
+	color: white;
+	text-decoration: none;
+}
+ a#order:hover{
+	color: yellow;
 }
 /***Larger devices***/
 @media(min-width: 1200px){
