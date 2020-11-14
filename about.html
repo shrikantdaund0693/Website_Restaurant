@@ -1,10 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Menu</title>
-    <script src="./assets/jQuery.js"></script>
+  <meta charset="UTF-8">
+  <title> Team Geca </title>
+  <script src="./assets/jQuery.js"></script>
     <link rel="stylesheet" href="./assets/bootstrap/css/bootstrap.min.css">
     <script src="./assets/bootstrap/js/bootstrap.min.js"></script>
     <link rel="icon" 
@@ -12,11 +11,13 @@
       href="./assets/images/favicon.png">
     <script src="https://kit.fontawesome.com/23c0e963da.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="'https://fonts.googleapis.com/css?family=Allura|Josefin+Sans'">
     <link rel="stylesheet" href="./assets/style.css">
-    <link rel="stylesheet" href="./assets/menu.css">
+  <link rel="stylesheet" href="./assets/about.css">
 </head>
 <body>
-	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <a class="navbar-brand" href="#"><img id="logo" src="./assets/images/logo_transparent.png" alt="logo">Punchvati</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -37,7 +38,7 @@
                 More
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <a class="dropdown-item" href="about.html">About Us</a>
+                <a class="dropdown-item" href="#">About Us</a>
                 <a class="dropdown-item" href="contact.html">Contact Us</a>
                 <a class="dropdown-item" href="order.html">Order</a>
               </div>
@@ -46,40 +47,53 @@
         </div>
       </nav>
 
-      <!--Menu--->
-      <div id="menu">
-      	<h2>Menu</h2>
-
-      	<div id="mnav" class="row">
-      		<div class="inner col-4"><p><a href="breakfast.html">Breakfast</a></p></div>
-      		<div class="inner col-4"><p><a href="dinner.html">Dinner</a></p></div>
-      		<div class="inner col-4"><p><a href="sweets.html">Sweets</a></p></div>
-      	</div>
-
-      	<div id="mnav2" class="row">
-      		<div class="inner col-6"><p style="background-color: white"><a href="snacks.html">Snacks</a></p></div>
-      		<div class="inner col-6"><p><a href="drinks.html">Drinks</a></p></div>
-      	</div>
-
-      	<div id="mnav3" class="row">
-      		<div class="inner col-12"><p><a href="specials.html">Specials</a></p></div>
-        </div>
+<div class="geca">
+  <h1>Our Team</h1>
+  <div class="team">
+    <div class="team_member">
+      <div class="team_img">
+        <img src="./assets/images1/image.png" alt="Team_image">
       </div>
-
-      <div id="top">Remove your little hunger with some snacks<br>
-        <a href="order.html" id="order">Order now</a>
+      <h3>Prathmesh Roy</h3>
+      <p class="role"> OWNER </p>
+      <p>
+          Younge Enterpreneur
+      	</p>
+    </div>
+    <div class="team_member">
+      <div class="team_img">
+        <img src="./assets/images1/image.png" alt="Team_image">
       </div>
+      <h3>Rahul Sinha</h3>
+      <p class="role"> CEO </p>
+      <p>
+        M.B.A from IIM-Bangalore
+     </p>
+  </div>
+    <div class="team_member">
+      <div class="team_img">
+        <img src="./assets/images1/image.png" alt="Team_image">
+      </div>
+      <h3>Deepak Shinkar</h3>
+      <p class="role"> DIRECTOR </p>
+      <p>
+        Leading Invester
+      </p>
+    </div>
+     <div class="team_member">
+      <div class="team_img">
+        <img src="./assets/images1/image.png" alt="Team_image">
+      </div>
+      <h3>Karan Thelkar</h3>
+      <p class="role"> MANAGER</p>
+      <p>
+        Done Master of Hotel management
+      </p>
+  </div>
+  </div>
+</div>  
 
-    <div id="img">
-      	<div id="r" class="row">
-      		<p class="inner col-lg-4 col-sm-6 "><img src="./assets/images1/snacks/noodles.jpg"><span>Noodles Rs:85</span></p>
-      		<p class="inner col-lg-4 col-sm-6 "><img src="./assets/images1/snacks/burger.jpeg"><span>Burger Rs:65</span></p>
-      		<p class="inner col-lg-4 col-sm-6 "><img src="./assets/images1/snacks/salad.jpg"><span>Salad Rs:45</span></p>
-      		
-      	</div>      	
-      </div><br>
-
-      <div class="footer">
+<div class="footer">
         <div class="container-fluid">
             <div class="row">
                 <div class="inner col-lg-4 col-sm-6 col-xs-12 inner1">
@@ -129,7 +143,5 @@
           <p class="text-center copy">&copy;Student of Government college of Engineering Aurangabad!</p>
       </div>
 
-      
-    <script src="./assets/script.js"></script>
 </body>
 </html>
