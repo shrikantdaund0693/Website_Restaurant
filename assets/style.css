@@ -271,3 +271,12 @@ input,.sl{
 .success{
     color: #e9ecef;
 }
+
+button a{
+    text-decoration: none;
+    color: #e9ecef;
+}
+button a:hover{
+    text-decoration: none;
+    color: #e9ecef;
+}
